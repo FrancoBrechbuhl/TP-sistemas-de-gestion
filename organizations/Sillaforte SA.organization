@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<organization:Organization xmlns:organization="http://documentation.bonitasoft.com/organization-xml-schema/1.1" name="Sillaforte SA">
+  <customUserInfoDefinitions/>
+  <users/>
+  <roles>
+    <role name="Planificador">
+      <displayName>Planificador</displayName>
+    </role>
+    <role name="Empleado">
+      <displayName>Empleado</displayName>
+    </role>
+  </roles>
+  <groups>
+    <group name="Ventas">
+      <displayName>Ventas</displayName>
+    </group>
+    <group name="Logistica">
+      <displayName>Logistica</displayName>
+    </group>
+    <group name="Produccion">
+      <displayName>Produccion</displayName>
+    </group>
+    <group name="Compras">
+      <displayName>Compras</displayName>
+    </group>
+  </groups>
+  <memberships/>
+</organization:Organization>
