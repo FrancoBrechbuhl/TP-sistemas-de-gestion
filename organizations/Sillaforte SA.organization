@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <organization:Organization xmlns:organization="http://documentation.bonitasoft.com/organization-xml-schema/1.1" name="Sillaforte SA">
   <customUserInfoDefinitions/>
-  <users/>
+  <users>
+    <user userName="fbrechbuhl">
+      <firstName>Franck</firstName>
+      <lastName>Brechbuhl</lastName>
+      <title>Sir</title>
+      <manager></manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+  </users>
   <roles>
     <role name="Planificador">
       <displayName>Planificador</displayName>
@@ -24,5 +35,11 @@
       <displayName>Compras</displayName>
     </group>
   </groups>
-  <memberships/>
+  <memberships>
+    <membership>
+      <userName>fbrechbuhl</userName>
+      <roleName>Empleado</roleName>
+      <groupName>Produccion</groupName>
+    </membership>
+  </memberships>
 </organization:Organization>
